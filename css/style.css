@@ -117,27 +117,22 @@ body{
     color: rgb(224, 213, 213);
     font-weight: 1.4rem;
 }
-/* .section-2 .container .right{
-    position: relative;
-} */
 .section-2 .container .right{
     position: relative;
 }
 .section-2 .container .right .first img{
-    width: 410px;
+    width: 360px;
     margin-left: 160px;
-    margin-top: 35px;
     position: absolute;
     right: 0;
-    bottom: 0;
 }
 .section-2 .container .right .right-arrow {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     background-color: rgb(221, 216, 216);
     position: absolute;
-    top: 60%;
-    left: 13%;
+    top: 50%;
+    left: 26%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,8 +144,8 @@ body{
 
 .section-2  .child{
     position: absolute;
-    width: 420px;
-    height: 160px;
+    width: 450px;
+    height: 200px;
     background-color: white;
     bottom: 0;
     left: 0;
@@ -168,7 +163,7 @@ body{
 }
 .section-3{
     width: 100%;
-    height: 1000px;
+    height: 900px;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -177,11 +172,11 @@ body{
 }
 .section-3 .container{
     width: 80%;
-    height: 65%;
+    height: 70%;
     background-color: rgb(255, 255, 255);
 }
 .section-3 .container .page-name{
-    height: 26%;
+    height: 20%;
     width: 100%;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -247,7 +242,7 @@ body{
     position: relative;
 }
 .section-3 .container .page-content .right .image img{
-    width: 410px;
+    width: 425px;
     position: absolute;
     right: 0;
 }
@@ -321,7 +316,7 @@ body{
 }
 .section-5 .container{
     width: 80%;
-    height: 90%;
+    height: 95%;
     background-color: rgb(255, 255, 255);
     position: relative;
 }
@@ -529,8 +524,8 @@ body{
 }
 .section-7{
     width: 100%;
-    height: 1300px;
-    background-color: rgb(50, 221, 16);
+    height: 1500px;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -543,11 +538,11 @@ body{
 }
 .section-7 .container{
     width: 80%;
-    height: 1000px;
+    height: 92%;
     background-color: rgb(221, 102, 23);
 }
 .section-7 .container .page-name{
-    height: 16%;
+    height: 10%;
     width: 100%;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -567,526 +562,495 @@ body{
 .section-7 .container .page-name .page-number .sub-num{
     margin-left: 5px;
 }
-.section-7 .container .page-content{
+.section-7 .container .part-1{
     width: 100%;
-    /* height: 150px; */
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+}
+.section-7 .container .part-1 .page-content{
     height: 100%;
-    background-color: rgb(179, 145, 180);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.section-7 .container .page-content .nav-bar{
-    height: 20%;
     width: 100%;
-    /* justify-content: space-between; */
-}
-.section-7 .container .page-content .nav-bar .navbar-child{
     justify-content: space-between;
-    width: 100%;
 }
-.section-7 .container .page-content .nav-bar .links{
-    width: 400px;
-    height: 20px;
-    margin-top: 20px;
+.section-7 .container .part-1 .page-content .left{
+    height: 100%;
+    width: 55%;
+    font-size: 1.5vw;
+}
+.section-7 .container .part-1 .page-content .right{
+    height: 100%;
+    width: 40%;
+    justify-content: space-between;
+}
+.section-7 .container .part-1 .page-content .right .links{
+    justify-content: space-between;
     font-weight: bold;
-    color: rgba(114, 114, 114, 0.849);
-    display: flex;
-    justify-content: space-between;
+    margin-top: 10px;
+    color: rgb(105, 105, 105);
+}
+.section-7 .container .part-1 .page-content .right .links p:hover{
+    color: rgb(0, 17, 255);
+}
+.section-7 .container .part-1 .page-content .right .links p{
     cursor: pointer;
 }
-.section-7 .container .page-content .nav-bar .links p{
-    font-size: 1.0rem;
-}
-.section-7 .container .page-content .nav-bar .links p:hover{
-    color: blue;
-    border-bottom: 2px solid black;
-}
-.section-7 .container .page-content .child{
-    height: 100%;
+.section-7 .container .part-2{
     width: 100%;
-    background-color: chartreuse;
+    height: 72%;
+    overflow: hidden;
+    background-color: yellowgreen;
 }
-.section-7 .container .page-content .part-1{
-    margin-top: 100px;
-    width: 100%;
-    height: 80%;
-    background-color: cadetblue;
-}
-.section-7 .container .page-content .part-1 .left{
+.section-7 .container .part-2 .left{
     width: 50%;
     height: 100%;
-    background-color: chartreuse;
+    background-color: rgb(41, 31, 184);
 }
-.section-7 .container .page-content .part-1 .left .image-1{
+.section-7 .container .part-2 .left .image-1{
     width: 100%;
     height: 50%;
-    background-color: crimson;
-    position: relative;
     overflow: hidden;
 }
-.section-7 .container .page-content .part-1 .left .image-1 img{
+.section-7 .container .part-2 .left .image-2{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(185, 67, 96);
+}
+.section-7 .container .part-2 .right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(41, 31, 184);
+}
+.section-7 .container .part-2 .right .image-1{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(185, 67, 96);
+}
+.section-7 .container .part-2 .right .image-2{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(255, 255, 0);
+}
+.section-7 .container .part-2 img{
+    /* height: 100%; */
     width: 100%;
 }
-.section-7 .container .page-content .part-1 .left .image-1 .page-layer{
-    width: 100%;
+.section-7 .container .part-2 .right .image-2 img{
     height: 100%;
-    bottom: -100%;
-    background-color: rgba(153, 105, 90, 0.616);
-    transition: 0.5s all ease;
+}
+.white{
+    color: white;
+}
+.space-between{
+    justify-content: space-between;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.section-7 .container .part-2 .left .image-1 .layer{
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    transition: all 0.5s ease;
+    background-color: rgba(146, 146, 12, 0.411);
+}
+.section-7 .container .part-2 .left .image-1:hover  .layer{
+    left: 0;
+    top: 0;
+}
+.section-7 .container .part-2 .left .image-1 .layer .layer-content{
+    width: 90%;
+    height: 90%;
+}
+.section-7 .container .part-2 .layer h2{
+    font-size: 3vw;
+    margin-bottom: 50px;
+}
+.section-7 .container .part-2 .layer p{
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.section-7 .container .part-2 .layer img{
+    width: 10%;
+    margin-left: 20px;
+}
+.section-7 .container .part-2 .layer .button{
+    margin-bottom: 50px;
+}
+.section-7 .container .part-2 .layer .client{
+    margin-bottom: 20px;
+}
+.section-7 .container .part-2 .right .image-1 .layer h2{
+    font-size: 3vw;
+    margin-bottom: 80px;
+}
+.section-7 .container .part-2 .right .image-1 .layer p{
+    font-weight: bold;
+    margin-bottom: 130px;
+}
+.section-7 .container .part-2 .right .image-1 .layer img{
+    width: 10%;
+    margin-left: 20px;
+}
+.section-7 .container .part-2 .layer .right .image-1 .button{
+    margin-bottom: 60px;
+}
+.section-7 .container .part-2 .layer .right .image-1 .client{
+    margin-bottom: 30px;
+}
+.section-7 .container .part-2 .right .image-2 .layer h2{
+    font-size: 3vw;
+    margin-bottom: 20px;
+}
+.section-7 .container .part-2 .right .image-2 .layer p{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.section-7 .container .part-2 .right .image-2 .layer img{
+    width: 10%;
+    margin-left: 20px;
+}
+.section-7 .container .part-2 .layer .right .image-2 .button{
+    margin-bottom: 40px;
+}
+.section-7 .container .part-2 .layer .right .image-2 .client{
+    margin-bottom: 30px;
+}
+.parent{
+    position: relative;
+}
+.child{
     position: absolute;
+}
+.section-7 .container .part-2 .left .image-2 .layer{
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    top: -100%;
+    transition: all 0.5s ease;
+    background-color: rgba(146, 146, 12, 0.411);
+}
+.section-7 .container .part-2 .left .image-2:hover  .layer{
+    left: 0;
+    top: 0;
+}
+.section-7 .container .part-2 .left .image-2 .layer .layer-content{
+    width: 90%;
+    height: 90%;
+}
+.section-7 .container .part-2 .right .image-1 .layer{
+    height: 100%;
+    width: 100%;
+    right: -100%;
+    top: -100%;
+    transition: all 0.5s ease;
+    background-color: rgba(146, 146, 12, 0.411);
+}
+.section-7 .container .part-2 .right .image-1:hover  .layer{
+    right: 0;
+    top: 0;
+}
+.section-7 .container .part-2 .right .image-1 .layer .layer-content{
+    width: 90%;
+    height: 90%;
+}
+.section-7 .container .part-2 .right .image-2 .layer{
+    height: 100%;
+    width: 100%;
+    right: -100%;
+    transition: all 0.5s ease;
+    background-color: rgba(146, 146, 12, 0.411);
+}
+.section-7 .container .part-2 .right .image-2:hover  .layer{
+   right: 0;
+}
+.section-7 .container .part-2 .right .image-2 .layer .layer-content{
+    width: 90%;
+    height: 90%;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.section-7 .container .part-3{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(255, 255, 255);
+}
+.section-7 .container .part-3 .left {
+    width: 50%;
+    font-size: 0.9rem;
+    color: rgb(129, 129, 129);
+    margin-top: 50px;
+    /* font-weight: bold; */
+}
+.section-7 .container .part-3 .right {
+    width: 50%;
+    font-size: 0.9rem;
+    color: rgb(105, 104, 104);
+}
+.section-7 .container .part-3 .right button {
+    cursor: pointer;
+    font-weight: bold;
+    width: 110px;
+    height: 40px;
+    background-color: blue;
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 60%;
+    margin-top: 40px;
+}
+.section-7 .container .part-3 .right button:hover{
+    color: rgb(0, 0, 0);
+}
+.section-8{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section-8 .container{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+}
+.section-8 .container .page-name{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.section-8 .container .page-name .testimonial{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.section-8 .container .page-name .testimonial p{
+    text-decoration: 5px solid black;
+}
+.section-8 .container .page-name .page-number{
+    font-weight: 1.1rem;
+    color: rgb(153, 148, 148);
+}
+.section-8 .container .page-name .page-number .sub-num{
+    margin-left: 5px;
+}
+.section-8 .container .page-content{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.section-8 .container .page-content .left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.section-8 .container .page-content .left .page-title{
+    width: 96%;
+    height: 96%;
+}
+.section-8 .container .page-content .left .page-title h4{
+    color: grey;
+    font-weight: bold;
+    font-size: 1.1vw;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+.section-8 .container .page-content .left .page-title h1{
+    font-size: 2.2vw;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.section-8 .container .page-content .left .page-title .button{
+    margin-top: 45%;
+    height: 32px;
+}
+.section-8 .container .page-content .left .page-title .button h3{
+    font-size: 1.0vw;
+    /* margin-left: 10px; */
+}
+.section-8 .container .page-content .left .page-title .button .arrow{
+    margin-left: 20px;
+}
+.section-8 .container .page-content .left .page-title .button .arrow img{
+    background-color: rgb(248, 248, 248);
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.section-8 .container .page-content .left .page-title .button .arrow img:hover{
+    background-color: rgb(0, 255, 170);
+}
+.section-8 .container .page-content .right{
+    height: 100%;
+    width: 50%;
+}
+.section-8 .container .page-content .right .image{
+    height: 98%;
+    width: 80%;
+    margin-left: 20%;
+}
+.section-8 .container .page-content .right .image img{
+    height: 100%;
+    width: 100%;
+}
+.section-9 {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(228, 228, 228);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.section-7 .container .page-content .part-1 .left .image-1:hover .page-layer {
-    left: 0;
+
+.section-9 .container {
+    width: 80%;
+    height: 70%;
+
 }
-.section-7 .container .page-content .part-1 .page-layer .layer-content {
+
+.section-9 .container .part-1 {
+    width: 100%;
+    height: 32%;
+    justify-content: space-between;
+}
+
+.section-9 .container .part-1 h2 {
+    font-size: 3rem;
+
+}
+
+.section-9 .container .part-1 h4 {
+    font-size: 1.5rem;
+    color: rgb(90, 90, 90);
+    margin-bottom: 20px;
+}
+
+.section-9 .container .part-1 h5 {
+    color: rgb(117, 117, 117);
+
+}
+
+.section-9 .container .part-2 .images {
+    margin-top: 100px;
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.section-9 .container .part-2 .img img {
+    width: 120px;
+}
+
+.section-10 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-10 .container{
     width: 80%;
     height: 80%;
 }
-
-.section-7 .container .page-content .part-1 .page-layer .layer-content h2 {
-    font-size: 2.6rem;
+.section-10 .container .left{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
 }
-
-.section-7 .container .page-content .part-1 .page-layer .layer-content p {
-    margin-top: 60px;
+.section-10 .container .left .title{
+    height: 80%;
+    width: 90%;
 }
-
-.section-7 .container .page-content .part-1 .page-layer .layer-content .client {
-    margin-top: 60px;
+.section-10 .container .left .title h3{
+    font-size: 1.4vw;
     margin-bottom: 10px;
 }
-
-.section-7 .container .page-content .part-1 .page-layer .layer-content .button {
-    align-items: center;
-    margin-top: 150px;
+.section-10 .container .left .title p{
+    margin-top: 30px;
+    font-size: 1.3vw;
+    color: blue;
 }
-
-.section-7 .container .page-content .part-1 .page-layer .layer-content .button h3 {
-    font-size: 1.1rem;
-    cursor: pointer;
-}
-
-.section-7 .container .page-content .part-1 .page-layer .layer-content .button img {
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-.section-7 .container .page-content .part-1 .left .image-2 {
-    width: 100%;
-    height: 50%;
-    background-color: rgb(255, 127, 153);
-    position: relative;
-    overflow: hidden;
-}
-
-.section-7 .container .page-content .part-1 .left .image-2 img {
-    width: 100%;
-}
-
-.section-7 .container .page-content .part-1 .left .image-2 .page-layer {
-    width: 100%;
+.section-10 .container .right{
     height: 100%;
-    background-color: rgba(153, 105, 90, 0.616);
-    position: absolute;
-    bottom: -100%;
-    transition: 0.5s all ease;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.section-10 .container .right .part-1{
+    height: 80%;
+    width: 50%;
+    border-left: 2px solid grey;
+}
+.section-10 .container .right .part-1 h5{
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.768);
+    margin-bottom: 20px;
+    margin-left: 50%;
+}
+.section-10 .container .right .part-1 p{
+    font-size: 1.1vw;
+    font-weight: bold;
+    margin-bottom: 9px;
+    margin-left: 50%;
+}
+.section-10 .container .left p:hover{
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+}
+.section-10 .container .right .part-2{
+    height: 80%;
+    width: 50%;
+}
+.section-10 .container .right .part-2 h5{
+    font-size: 1.1vw;
+    color: rgba(128, 128, 128, 0.768);
+    margin-bottom: 20px;
+    margin-left: 30%;
+}
+.section-10 .container .right .part-2 p{
+    font-size: 1.1vw;
+    font-weight: bold;
+    margin-bottom: 9px;
+    margin-left: 30%;
+} 
+/* ====================================================== */
+
+.section-11{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(219, 206, 206);
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.container{
+    width: 80%;
+    justify-content: space-between;
+}
+
+.section-11 .container .logo {
+    color: rgb(0, 0, 0);
+    font-size: 2.8rem;
+}
+
+.section-11 .container .link{
+    color: rgb(0, 0, 0);
+    width: 380px;
+    font-size: 1.18rem;
+    font-weight: 599;
+    /* font-weight: 550; */
+    justify-content: space-between;
     align-items: center;
 }
-.section-7 .container .page-content .part-1 .left .image-2:hover .page-layer {
-    bottom: 0;
+.section-11 .container .link:hover{
+    cursor: pointer
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.section-11 .container .link p:hover{
+    border-bottom: 2px solid black;
+}
+.section-11 .container .para{
+    font-size: 0.9vw;
+}
